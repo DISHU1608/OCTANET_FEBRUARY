@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrao Demo</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/    zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+     <title>Car Company</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        #logo {
+            max-width: 200px; /* Adjust the size of the logo as needed */
+            max-height: 100px;
+    </style>
+   
+</head>
+
+     
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+   <center><button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button></center>
+    </form>  
+  </div>
+</nav>
+
+<p>*</p>
+
+
+<body>
+  <header>
+        <h1 align="left">BMW</h1>
+        <div >
+          <img  id="logo" src="logo.jpg" alt="Company Logo">
+        </div>
+        
+    </header>
+
+    <nav>
+        <a href="https://www.bmw.com/en/index.html">Home</a> |
+        <a href="https://www.bmw.in/en/all-models.html?tl=grp-wdpl-bcom-mix-mn-.-nscf-.-.-">Models</a> |
+        <a href="https://www.bmw.com/en/search.html#service">Services</a> |
+        <a href="https://www.bmwgroup.com/en/general/kontakt.html">Contact</a>|
+        <a href="https://www.bmwgroup.com/en.html">BMW Group</a>
+    </nav>
+    <video width="300" controls> <source src="v.mp4" type="mp4"></video>
+
+    <section id="home">
+        <h1> <center>Welcome to Our BMW Company</center></h1>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="BMW1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="BMW2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="BMW3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+        <p>Explore our latest models and services. Drive with style and performance.
+          <a href="https://www.bmwgroup.com/en.html">click here</a>
+
+        </p>
+    <div class="card-deck">
+  <div class="card">
+    <img src="BMW1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">BMW 8x</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="BMW2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">BMW X5</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="BMW1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">BMW 2xc</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+</div>
+<div class="card-deck">
+  <div class="card">
+    <img src="BMW4.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">BMW 110</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="BMW5.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">BMW 1xs</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="BMW7.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">BMW x</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+</div>
+        <a href="https://www.bmw.in/en/all-models.html?tl=grp-wdpl-bcom-mix-mn-.-nscf-.-.-">click here</a>
+        </p>
+        <!-- Include images and details of various car models -->
+    </section>
+
+    <section id="services">
+        <h1><center>Our Services</center></h1>
+        <div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card">
+      <img src="BMWS1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">BMW 2xi</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="BMWS2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">BMW 6xxc</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="BMWS3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">BMW 8x</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="bmws5.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">BMW 10x</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+        <!-- Include details of car maintenance, repair, etc. -->
+    </section>
+
+    <section id="contact">
+        <h1><center>Contact Us</center></h1>
+        <p>Reach out to us for inquiries and support.</p>
+        <!-- Include a contact form or contact details -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Car Company. the latest technological trends. With content focusing on topics like mobility, stories of past and recent milestones, facts about historic, recent and future BMW models.
+
+</p>
+    </footer>
+</body>
+</html>
